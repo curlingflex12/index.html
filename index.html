@@ -1,37 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Hoezee Legal Group</title>
   <style>
-    body { font-family: Arial; background: #000; color: #FFD700; margin: 0; }
-    header, footer { background: #111; padding: 20px; text-align: center; }
-    main { padding: 20px; }
-    h1 { color: #FFD700; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #FFD700;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #FFD700;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #FFD700;
+      border-bottom: 1px solid #FFD700;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Hoezee Legal Group</h1>
-    <p>Justice. Integrity. Excellence.</p>
-  </header>
-  <main>
-    <h2>About Us</h2>
-    <p>We are a modern law firm offering client-focused legal solutions across Asia Pacific.</p>
 
+<header>
+  <h1>Hoezee Legal Group</h1>
+  <p>Your Trusted Legal Partner in Asia Pacific</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hoezee Legal Group is a forward-thinking law firm headquartered in Bangkok, Thailand. We provide client-focused legal solutions across commercial, corporate, and personal legal matters.</p>
+  </section>
+
+  <section id="services">
     <h2>Our Services</h2>
     <ul>
       <li>Corporate & Commercial Law</li>
       <li>Dispute Resolution</li>
       <li>Real Estate & Property</li>
       <li>Immigration & Family Law</li>
+      <li>Regulatory Compliance</li>
     </ul>
+  </section>
 
+  <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: contact@hoezeelegal.com</p>
-    <p>Phone: +66 123 456 789</p>
-  </main>
-  <footer>
-    &copy; 2025 Hoezee Legal Group. All rights reserved.
-  </footer>
+    <p><strong>Email:</strong> contact@hoezeelegal.com</p>
+    <p><strong>Phone:</strong> +66 123 456 789</p>
+    <p><strong>Office:</strong> Bangkok, Thailand</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Hoezee Legal Group. All rights reserved.
+</footer>
+
 </body>
 </html>
